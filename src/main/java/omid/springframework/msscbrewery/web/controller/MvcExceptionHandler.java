@@ -1,4 +1,4 @@
-package omid.springframework.msscbrewery.controller;
+package omid.springframework.msscbrewery.web.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.validation.ConstraintViolationException;
-import java.net.BindException;
 import java.util.ArrayList;
 import java.util.List;
 

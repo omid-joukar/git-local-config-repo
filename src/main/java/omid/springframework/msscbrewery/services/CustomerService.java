@@ -1,6 +1,6 @@
 package omid.springframework.msscbrewery.services;
 
-import omid.springframework.msscbrewery.model.CustomerDto;
+import omid.springframework.msscbrewery.web.model.CustomerDto;
 
 import java.util.UUID;
 

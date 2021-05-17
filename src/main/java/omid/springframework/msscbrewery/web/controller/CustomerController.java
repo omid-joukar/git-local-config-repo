@@ -1,16 +1,13 @@
-package omid.springframework.msscbrewery.controller;
+package omid.springframework.msscbrewery.web.controller;
 
-import omid.springframework.msscbrewery.model.CustomerDto;
+import omid.springframework.msscbrewery.web.model.CustomerDto;
 import omid.springframework.msscbrewery.services.CustomerService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.UUID;
 
 @RequestMapping("/api/v1/customer")

@@ -1,4 +1,4 @@
-package omid.springframework.msscbrewery.model;
+package omid.springframework.msscbrewery.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

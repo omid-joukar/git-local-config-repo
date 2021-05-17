@@ -1,18 +1,16 @@
-package omid.springframework.msscbrewery.domain;
+package omid.springframework.msscbrewery.web.model.v2;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import omid.springframework.msscbrewery.web.model.v2.BeerStyleEnum;
 
 import java.util.UUID;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Beer {
+public class BeerDtoV2 {
     private UUID id;
     private String beerName;
     private BeerStyleEnum beerStyle;

@@ -1,7 +1,7 @@
 package omid.springframework.msscbrewery.services;
 
 import lombok.extern.slf4j.Slf4j;
-import omid.springframework.msscbrewery.model.CustomerDto;
+import omid.springframework.msscbrewery.web.model.CustomerDto;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;

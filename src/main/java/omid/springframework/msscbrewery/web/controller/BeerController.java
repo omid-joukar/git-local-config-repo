@@ -1,6 +1,6 @@
-package omid.springframework.msscbrewery.controller;
+package omid.springframework.msscbrewery.web.controller;
 
-import omid.springframework.msscbrewery.model.BeerDto;
+import omid.springframework.msscbrewery.web.model.BeerDto;
 import omid.springframework.msscbrewery.services.BeerService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
